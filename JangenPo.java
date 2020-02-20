@@ -23,7 +23,19 @@ public class PedraPaperTissores
     {
         if (idioma == 1)
         {
-          Hola
+            System.out.println("\n----------------------------------------------------------------------------");
+            System.out.println("| + Partida al millor de 3                                                 |");
+            System.out.println("----------------------------------------------------------------------------");
+            Thread.sleep(1500);
+            System.out.println("| + Qui tengui 2 victories guanya                                          |");
+            System.out.println("----------------------------------------------------------------------------");
+            Thread.sleep(1500);
+            System.out.println("| + En cas d'empat ningu suma punts                                        |");
+            System.out.println("----------------------------------------------------------------------------");
+            Thread.sleep(1500);
+            System.out.println("| + Si despres de 3 torns no hi ha guanyador, guanya qui guanyi la ronda   |");
+            System.out.println("----------------------------------------------------------------------------");
+            Thread.sleep(1500);
         }
         else if (idioma == 2)
         {
