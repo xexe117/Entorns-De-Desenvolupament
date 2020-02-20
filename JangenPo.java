@@ -39,7 +39,21 @@ public class PedraPaperTissores
         }
         else if (idioma == 2)
         {
-            Hello World
+            System.out.println("\n----------------------------------------------------------------------------");
+            System.out.println("| + Partida al mejor de 3                                                  |");
+            System.out.println("----------------------------------------------------------------------------");
+            Thread.sleep(1500);
+            System.out.println("| + Quien tenga 2 victorias gana                                           |");
+            System.out.println("----------------------------------------------------------------------------");
+            Thread.sleep(1500);
+            System.out.println("| + En caso de empate nadie suma puntos                                    |");
+            System.out.println("----------------------------------------------------------------------------");
+            Thread.sleep(1500);
+            System.out.println("| + Si despues de 3 turnos no hay ganador, gana quien gane la ronda        |");
+            System.out.println("----------------------------------------------------------------------------");
+            Thread.sleep(1500);
+
+            Hello world;
         }
         else
         {
